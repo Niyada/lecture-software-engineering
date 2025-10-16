@@ -52,8 +52,9 @@ Erforschen Sie erweiterte Produktivitäts-Features Ihrer IDE anhand eines kleine
 - **🖱️ Multi-Cursor/Multiple Selections:** Bearbeiten Sie mehrere Stellen gleichzeitig
 - **🧭 Schnelle Navigation:** Nutzen Sie Shortcuts zum Springen zwischen Klassen, Methoden oder Dateien
 - **📁 Code-Folding:** Klappen Sie Code-Bereiche ein und aus
-- **🔗 Split-View:** Arbeiten Sie mit mehreren Dateien gleichzeitig nebeneinander
-- **💻 Integrierte Terminal/Konsole:** Führen Sie Ihr Programm direkt aus der IDE aus
+- **🔗 Split-View 1:** Arbeiten Sie mit mehreren Dateien gleichzeitig nebeneinander
+- **🔗 Split-View 2:** Arbeiten Sie an einer Datei gleichzeitig nebeneinander
+- **💻 Integrierter Compiler:** Führen Sie Ihr Programm direkt aus der IDE aus
 
 ### 📝 Dokumentieren Sie:
 - Welche Shortcuts haben Sie als besonders nützlich empfunden?
