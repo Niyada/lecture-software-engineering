@@ -1,24 +1,44 @@
-# Übungsaufgaben - Versionsverwaltungssysteme (VCS)
-
 ## Aufgabe 1️⃣
-Was sind die Hauptaufgaben von Versionskontrollsystemen?
-
-## Aufgabe 2️⃣
 Welche Arten von VCS gibt es und was sind ihre Vor- und Nachteile?
+
+
+# ## Aufgabe 2️⃣
+Arbeiten mit `.gitignore` Dateien
+
+### Aufgabe 2️⃣.1️⃣
+Welche der folgenden Dateien sollten nicht versioniert werden und warum?
+- `src/Main.java`
+- `config/database.properties` 
+- `logs/app.log`
+- `target/Main.class`
+- `node_modules/package/index.js`
+- `.DS_Store`
+- `README.md`
+
+### Aufgabe 2️⃣.2️⃣
+Erstellen Sie ein neues Git Repository in einem beliebigen Verzeichnis auf Ihrem Computer und fügen Sie die oben genannten Dateien mit beliebigen oder ohne Inhalt  hinzu. Prüfen Sie das Ergebnis mit `git status`.
+Erstellen Sie eine entsprechende `.gitignore`. Überprüfen Sie mit `git status`, ob die richtigen Dateien ignoriert werden.
+
 
 ## Aufgabe 3️⃣
 Ziel dieser Aufgabe ist es, grundlegende Arbeitsabläufe bei der Verwendung von VCS in Ihrer bevorzugten IDE zu erkunden.
 
 > [!IMPORTANT] 
 > Sie benötigen für diese Aufgabe einen GitHub Account, sowie einen SSH-Key, der dort hinterlegt ist. Letzteres ist zu Zwecken der Authentifizierung nötig, um in das remote Repository zu pushen. Eine Anleitung zum Erstellen eines SSH Keys finden Sie [hier](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Zudem wird [hier](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) erklärt, wie dieser in GitHub hinterlegt werden kann.
+> Alternativ können Sie auch HTTPS verwenden, um auf das Repository zuzugreifen. Hierzu können Sie einen [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) anstelle Ihres Passworts verwenden.
+> Außerdem muss Ihr Dozent Sie als Collaborator zu dem Repository hinzufügen, damit Sie Schreibrechte haben.
 
 ### Aufgabe 3️⃣.1️⃣
 Klonen sie folgendes Repository und öffnen Sie es als Projekt in Ihrer bevorzugten IDE:
 - [Tutorial für VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_open-a-git-repository)
 - [IntelliJ IDEA](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html#clone-repo)
 - [Eclipse IDE](https://wiki.eclipse.org/EGit/User_Guide/Remote#Cloning_remote_Repositories)
-```
-git@github.com:...
+```bash
+#SSH URL:
+git@github.com:Niyada/WWI25B2-software-engineering-1.git
+
+#HTTPS URL:
+https://github.com/Niyada/WWI25B2-software-engineering-1.git
 ```
 
 ### Aufgabe 3️⃣.2️⃣
