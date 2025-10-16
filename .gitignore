@@ -27,3 +27,6 @@ Temporary Items
 
 # VSCode
 .vscode/
+
+# Hide solutions
+solutions/
