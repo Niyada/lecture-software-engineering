@@ -2,7 +2,7 @@
 Welche Arten von VCS gibt es und was sind ihre Vor- und Nachteile?
 
 
-# ## Aufgabe 2️⃣
+## Aufgabe 2️⃣
 Arbeiten mit `.gitignore` Dateien
 
 ### Aufgabe 2️⃣.1️⃣
