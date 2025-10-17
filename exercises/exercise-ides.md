@@ -11,6 +11,9 @@ Entscheiden Sie sich für eine der drei vorgestellten IDEs:
 Verwenden Sie bereits eine dieser Entwicklungsumgebungen, sollten Sie eine der anderen IDEs ausprobieren.
 Installieren Sie die IDE und machen Sie sich mit den grundlegenden Funktionen vertraut.
 
+> [!TIP]
+> Installieren Sie das [Java-Extension-Pack](https://code.visualstudio.com/docs/java/extensions) in Visual Studio Code, um die Java-Entwicklung zu erleichtern.
+
 > [!NOTE]
 > Für die Vollversion von IntelliJ benötigen Sie eine Studentenlizenz über die DHBW Karlsruhe.
 
