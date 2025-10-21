@@ -1,7 +1,6 @@
 ## Aufgabe 1️⃣
 Welche Arten von VCS gibt es und was sind ihre Vor- und Nachteile?
 
-
 ## Aufgabe 2️⃣
 Arbeiten mit `.gitignore` Dateien
 
@@ -43,6 +42,9 @@ https://github.com/Niyada/WWI25B2-software-engineering-1.git
 
 ### Aufgabe 3️⃣.2️⃣
 Finden Sie heraus, wer die Datei `Animal.java` zuletzt geändert hat. Wann wurde die Änderung vorgenommen und was wurde geändert?
+Wie sind die Schritte, um diese Information 
+- in Ihrer IDE zu finden?
+- über die Kommandozeile zu finden?
 
 ### Aufgabe 3️⃣.3️⃣
 Erstellen Sie einen neuen Branch namens `feature/<IhrName>`. Wechseln Sie in diesen Branch und erstellen Sie ein beliebiges neues Tier als Unterklasse von `Animal` (z.B. `Dog`, `Cat`, `Elephant` etc.). Implementieren Sie die vorgegebenen Methode und einen geeigneten Konstruktor. Synchronisieren Sie anschließend Ihre Änderungen in der Arbeitskopie mit dem lokalen und remote Repository.
