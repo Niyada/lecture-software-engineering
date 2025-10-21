@@ -1,11 +1,14 @@
-## Aufgabe 1️⃣
+# 🔄 Übungsaufgaben - VCS
+
+## 📚 Aufgabe 1️⃣
 Welche Arten von VCS gibt es und was sind ihre Vor- und Nachteile?
 
-## Aufgabe 2️⃣
+
+## 📁 Aufgabe 2️⃣
 Arbeiten mit `.gitignore` Dateien
 
 ### Aufgabe 2️⃣.1️⃣
-Welche der folgenden Dateien sollten nicht versioniert werden und warum?
+Welche der folgenden Dateien sollten nicht versioniert werden und warum? Informieren Sie sich ggf. über die Dateien und Ihre Verwendung.
 - `src/Main.java`
 - `config/database.properties` 
 - `logs/app.log`
@@ -15,11 +18,12 @@ Welche der folgenden Dateien sollten nicht versioniert werden und warum?
 - `README.md`
 
 ### Aufgabe 2️⃣.2️⃣
-Erstellen Sie ein neues Git Repository in einem beliebigen Verzeichnis auf Ihrem Computer und fügen Sie die oben genannten Dateien mit beliebigen oder ohne Inhalt  hinzu. Prüfen Sie das Ergebnis mit `git status`.
+Erstellen Sie ein neues Git Repository in einem beliebigen Verzeichnis auf Ihrem Computer und fügen Sie die oben genannten Dateien mit beliebigen oder ohne Inhalt hinzu. Prüfen Sie das Ergebnis mit `git status`.
 Erstellen Sie eine entsprechende `.gitignore`. Überprüfen Sie mit `git status`, ob die richtigen Dateien ignoriert werden.
 
 
-## Aufgabe 3️⃣
+
+## 🛠️ Aufgabe 3️⃣
 Ziel dieser Aufgabe ist es, grundlegende Arbeitsabläufe bei der Verwendung von VCS in Ihrer bevorzugten IDE zu erkunden.
 
 > [!IMPORTANT] 
@@ -53,7 +57,7 @@ Erstellen Sie einen neuen Branch namens `feature/<IhrName>`. Wechseln Sie in die
 Wechseln Sie zurück in den `main` Branch und versuchen Sie, Ihren `feature/<IhrName>` Branch in den `main` Branch zu mergen. Achten Sie darauf, dass Sie eventuelle Merge-Konflikte auflösen. Was fällt Ihnen dabei auf?
 
 ### Aufgabe 3️⃣.5️⃣
-Erstellen Sie ein Pull Request (PR) für Ihren `feature/<IhrName>` Branch im GitHub Repository. Beschreiben Sie kurz, was Sie geändert haben und fordern Sie eine Überprüfung (Review) durch einen Ihrer Kommilitonen an.
+Erstellen Sie ein Pull Request (PR) für Ihren `feature/<IhrName>` Branch im GitHub Repository. Beschreiben Sie kurz, was Sie geändert haben und fordern Sie eine Überprüfung (Review) durch einen Ihrer Kommilitonen an. Mergen Sie anschließend den PR nach erfolgreicher Überprüfung auf den `main`-Branch.
 > [!TIP]
 > Nutzen Sie die Gelegenheit, um Feedback zu Ihrem Code zu erhalten und geben Sie auch selbst Feedback zu den Änderungen Ihrer Kommilitonen.
 > [Hier](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) finden Sie mehr Informationen zu Pull Requests und [hier](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes) eine Anleitung zum Erstellen von Pull Requests.
