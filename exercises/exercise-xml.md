@@ -144,4 +144,4 @@ Schreiben Sie für die folgende XML-Datei eine passende DTD-Datei.
 
 Binden Sie Ihre DTD in das XML-Dokument ein.
 
-Prüfen Sie Ihr Dokument auf Gültigkeit, z.B. mit dem XML Validierer unter http://www.xmlvalidation.com!
+Prüfen Sie Ihr Dokument auf Gültigkeit, mit einem online XML Validierer, z.B. [diesem hier](https://www.truugo.com/xml_validator/).
