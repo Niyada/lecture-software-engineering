@@ -63,12 +63,24 @@ Sie weist folgende Eigenschaften auf:
 
 Erstellen Sie eine HTML-Datei, die die folgende Webseite darstellt und die durch ein **extern eingebundenes** CSS formatiert wird:
 
-• **h1:** Schriftfarbe ist rot und die Schriftart ist kursiv  
-• **h2:** Schriftfarbe ist blau und die dieselbe Schriftart wie für h1  
-• Die Auswahlliste und das Textfeld haben einen grauen Rand und einen gelben Hintergrund, sowie eine blaue Schrift  
-• Die Tabelleneinträge sind grau in der Schriftart Arial.  
-• Der Bestellknopf ist blau umrandet mit blauer Schrift und hellblauem Hintergrund.
+![Bild der zu erstellenden Website](/exercises/media/exercise-html-css-task-5-website.png)
 
-Die Voreinstellung soll so gewählt werden, dass der Artikel 1x in der Größe 38 bestellt wird.
+- Aller Text soll als `sans-serif` Schriftart dargestellt werden.
+- Der Titel "Sportschuh" soll zentriert und fett dargestellt werden.
+- Das Bild soll 
+  - eine feste dynamische Breite von `300%` haben und 
+  - eine automatisch angepasste Höhe haben
+- Die Produktbeschreibung wird 
+  - rechts neben den Bild angezeigt 
+  - hat einen Zeilenabstand von `1.5em`
+- Das Bestellformular soll
+  - unterhalb der Produktbeschreibung angezeigt werden
+  - die Voreinstellung so gewählt werden, dass der Artikel 1x in der Größe 38 bestellt wird
+  - alle Bestelldaten an eine Email-Adresse schicken, zusammen mit der Artikelnummer und der Farbe
+-  es können maximal `10` Artikel und mindestens `1` Artikel bestellt werden
 
-Konfigurieren Sie die Aktion des Formulars so, dass alle Bestelldaten an Ihre Email-Adresse geschickt werden (Hinweis: mailto:), zusammen mit der Artikelnummer und der Farbe.
+> [!TIP]
+> Verwenden Sie für die Aktion des Formulars `mailto:`, um die Bestelldaten per E-Mail zu versenden.
+
+> [!TIP]
+> Sie können zum Erstellen des Layouts der Website die in der Vorlesung kennen gelernten Tabellen verwenden, order Sie verwenden das modernere CSS Flexbox Layout: [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
