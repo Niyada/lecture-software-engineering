@@ -1,4 +1,4 @@
-# 🌐 Übungsblatt HTML und CSS (P)
+# 🌐 Übungsblatt HTML und CSS
 
 In der Vorlesung wurden nur einzelne Elemente von HTML und CSS vorgestellt. Bitte verwenden Sie zur Lösung der Aufgaben entsprechende Online-Ressourcen (z.B. [selfhtml](https://wiki.selfhtml.org/wiki/HTML) oder [W3Schools](https://www.w3schools.com/html/default.asp) bzw. weiterführende Bücher. Die Dokumente sollten HTML5-konform sein und es sollen, wo möglich, HTML5 Elemente zur semantischen Auszeichnung verwendet werden.
 
