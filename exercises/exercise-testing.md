@@ -185,3 +185,91 @@ Führen Sie den Test aus:
 
 > [!TIP]
 > Diese Aufgabe dient nur der technischen Einrichtung. In späteren Aufgaben lernen Sie, eigene Tests zu schreiben!
+
+## Aufgabe 3️⃣ - Tests für AnagramChecker schreiben
+
+**Was ist ein Anagramm?** Ein Anagramm ist ein Wort oder Satz, der durch Umstellung der Buchstaben eines anderen Wortes oder Satzes gebildet wird. Beispiele: "listen" und "silent" oder "conversation" und "voices rant on".
+
+In dieser Aufgabe schreiben Sie Tests für eine `AnagramChecker` Klasse, die prüft, ob zwei Strings Anagramme sind.
+
+### Vorbereitung: AnagramChecker Klasse erstellen
+
+Erstellen Sie zunächst die Klasse `AnagramChecker` im Package `de.dhbw.ka` in `src/main/java/`:
+
+```java
+package de.dhbw.ka;
+
+public class AnagramChecker {
+    public boolean check(String word1, String word2) {
+        if (word1 == null || word2 == null) {
+            return false;
+        }
+        if (word1.isEmpty() && word2.isEmpty()) {
+            return true;
+        }
+        if (word1.isEmpty() || word2.isEmpty()) {
+            return false;
+        }
+        String normalizedWord1 = word1.replaceAll("\\s+", "").toLowerCase();
+        String normalizedWord2 = word2.replaceAll("\\s+", "").toLowerCase();
+        if (normalizedWord1.length() != normalizedWord2.length()) {
+            return false;
+        }
+
+        int[] characterCounts = new int[26];
+        for (char character : normalizedWord1.toCharArray()) {
+            characterCounts[character - 'a']++;
+        }
+        for (char character : normalizedWord2.toCharArray()) {
+            characterCounts[character - 'a']--;
+        }
+        for (int count : characterCounts) {
+            if (count != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+### Aufgabe 3️⃣.1️⃣ - Geführte Tests schreiben
+
+Erstellen Sie eine Test-Klasse `AnagramCheckerTest` im Package `de.dhbw.ka` in `src/test/java/`.
+
+Schreiben Sie Tests für folgende Szenarien. Verwenden Sie für jeden Test die `@DisplayName` Annotation, um den Test zu beschreiben:
+
+**a) Einfaches Anagramm**  
+Testen Sie mit `"listen"` und `"silent"` → Erwartung: `true`
+
+**b) Kein Anagramm**  
+Testen Sie mit zwei Wörtern, die keine Anagramme sind (z.B. `"hello"` und `"world"`) → Erwartung: `false`
+
+**c) Unterschiedliche Längen**  
+Testen Sie mit Wörtern unterschiedlicher Länge → Erwartung: `false`
+
+**d) Anagramm mit Leerzeichen**  
+Testen Sie mit `"conversation"` und `"voices rant on"` → Erwartung: `true` (Leerzeichen werden ignoriert)
+
+**e) Case Insensitivity**  
+Testen Sie mit `"Listen"` und `"Silent"` → Erwartung: `true` (Groß-/Kleinschreibung wird ignoriert)
+
+**f) Null-Werte behandeln**  
+Schreiben Sie drei Tests für:
+- Beide Parameter sind `null` → Erwartung: `false`
+- Erster Parameter ist `null` → Erwartung: `false`
+- Zweiter Parameter ist `null` → Erwartung: `false`
+
+**g) Leere Strings**  
+Schreiben Sie zwei Tests für:
+- Beide Strings sind leer (`""`) → Erwartung: `true`
+- Nur ein String ist leer → Erwartung: `false`
+
+### Aufgabe 3️⃣.2️⃣ - Eigene Tests hinzufügen
+
+Fügen Sie **mindestens 3 weitere Testfälle** hinzu, die Ihnen sinnvoll erscheinen. Überlegen Sie:
+- Welche Edge Cases könnten noch interessant sein?
+- Gibt es spezielle Zeichenkombinationen, die getestet werden sollten?
+
+> [!TIP]
+> Überlegen Sie: Welche Art von Eingaben könnte die Implementierung vor Herausforderungen stellen?
