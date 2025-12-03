@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mein Lieblingshobby</title>
+    <link rel="stylesheet" href="task-5-solution.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Sportschuh</h1>
+        <hr>
+    </header>
+
+    <main>
+        <div class="product-overview">
+            <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/DKNY_Marie_Sneaker_23142034_rot-orange_-_wei%C3%9F_%281%29_%2816235746307%29.jpg/1600px-DKNY_Marie_Sneaker_23142034_rot-orange_-_wei%C3%9F_%281%29_%2816235746307%29.jpg?20150411091305" 
+                alt="Ein roter Sportschuh"
+                class="product-image">
+            <div class="product-description">
+                <h2>Beschreibung</h2>
+                <p>Dieser orangene Sportschuh ist ideal für Laufen und Fitnessaktivitäten. Er bietet hervorragenden Komfort und Unterstützung.</p>
+                <ul>
+                    <li>Farbe: Orange</li>
+                    <li>Größen: 36-42</li>
+                    <li>Material: Atmungsaktives Mesh</li>
+                    <li><strong>Artikelnummer: 12345678</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <form class="order-form" action="mailto:test@test.de" method="post">
+            <h2>Bestellen</h2>
+
+            <label for="amount">Anzahl:</label>
+            <input type="number" id="amount" name="amount" min="1" max="10" value="1">
+
+            <label for="size">Größe:</label>
+            <select id="size" name="size">
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38" selected>38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+            </select>
+
+            <input type="submit" value="Bestellen">
+        </form>
+
+    </main>
+</body>
+
+</html>

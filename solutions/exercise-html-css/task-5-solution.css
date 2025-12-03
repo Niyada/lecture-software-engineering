@@ -1,0 +1,54 @@
+html, body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48pt;
+    text-align: center;
+}
+
+main .product-overview {
+    display: flex;
+}
+
+main img.product-image {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+main .product-description {
+    line-height: 1.5em;
+}
+
+main .order-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main form.order-form label{
+    margin-top: 1em;
+}
+
+main form.order-form input,
+main form.order-form select {
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+main form.order-form input[type="number"],
+main form.order-form select {
+    border-bottom: 2px solid #333;
+    margin-top: 1em;
+    background-color: #eee;
+}
+
+main form.order-form input[type="submit"] {
+    margin-top: 2em;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+

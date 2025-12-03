@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beispiel</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: gray;
+            width: 420px;
+            text-align: center;
+        }
+
+        table {
+            background-color: lightyellow;
+            border: 5px dashed blue;
+            border-spacing: 5px;
+            width: 420px;
+        }
+
+        th {
+            border: 2px dotted black;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td.name {
+            background-color: lightgray;
+        }
+
+        td.street {
+            background-color: lightgray;
+            padding-left: 10px;
+        }
+
+        td.plz {
+            background-color: lightgreen;
+            padding-left: 10px;
+        }
+
+        td.stadt {
+            background-color: lightgray;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Adressen</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="3">Adresse</th>
+            </tr>
+            <tr>
+                <th>Straße</th>
+                <th>PLZ</th>
+                <th>Ort</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="name">Max Mustermann</td>
+                <td class="street">Musterstraße 1</td>
+                <td class="plz">12345</td>
+                <td class="stadt">Musterstadt</td>
+            </tr>
+            <tr>
+                <td class="name">Erika Musterfrau</td>
+                <td class="street">Beispielweg 2</td>
+                <td class="plz">54321</td>
+                <td class="stadt">Beispielstadt</td>
+            </tr>
+            <tr>
+                <td class="name">Erika Musterfrau</td>
+                <td class="street">Beispielweg 2</td>
+                <td class="plz">54321</td>
+                <td class="stadt">Beispielstadt</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
