@@ -50,8 +50,8 @@
 
 ```xml
 <!DOCTYPE CDSAMMLUNG [
-    <!ELEMENT CDSAMMLUNG (Datensatz)+>
-    <!ELEMENT Datensatz (Kuenstler, Titel, Jahr)>
+    <!ELEMENT CDSAMMLUNG (Album)+>
+    <!ELEMENT Album (Kuenstler, Titel, Jahr)>
     <!ELEMENT Kuenstler (#PCDATA)>
     <!ELEMENT Titel (#PCDATA)>
     <!ELEMENT Jahr (#PCDATA)>

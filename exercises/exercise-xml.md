@@ -85,8 +85,8 @@ Schreiben Sie ein XML-Dokument, das ein Adressbuch abspeichern soll. Das Adressb
 
 Verwenden Sie die folgenden Datensätze als Inhalt:
 - **Bezeichnung des Adressbuchs:** Mein erstes <XML>-Adressbuch
-- **Datensatz A1:** Max Müller, 0721 6669888, max@mueller.de, 1.10.1970, Mein bester Freund
-- **Datensatz A2:** Martina Kramer, +34309229922, martina@kramer.de, Freundin meines Bruder
+- **Datensatz A1:** Max Müller, 0721 6669888, max@mueller.de, Mein bester Freund
+- **Datensatz A2:** Martina Kramer, +34309229922, martina@kramer.de, Freundin meines Bruders
 
 Prüfen Sie das Dokument mit einem Browser auf Wohlgeformtheit.
 
