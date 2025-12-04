@@ -22,13 +22,13 @@ Erstellen Sie eine Startseite, die eines Ihrer Hobbys beschreibt. Die Datei hat 
 
 ## 🖼️ Aufgabe 2️⃣ (HTML, Medien einbinden)
 
-Erweitern Sie Ihre Webseite mit Fotos und Videos. Setzen Sie bei den Medien das alt Attribut und den Tooltip (mittels des `title` Attribut: [siehe hier](https://www.w3schools.com/tags/att_global_title.asp)) ein. Experimentieren Sie mit festen und flexiblen Größenangaben sowie verschiedenen Positionsmöglichkeiten (z.B. oberhalb oder text-umschließend).
+Erweitern Sie Ihre Webseite mit Fotos oder Videos. Setzen Sie bei den Medien das alt Attribut und den Tooltip (mittels des `title` Attribut: [siehe hier](https://www.w3schools.com/tags/att_global_title.asp)) ein. Experimentieren Sie mit festen und flexiblen Größenangaben sowie verschiedenen Positionsmöglichkeiten (z.B. oberhalb oder text-umschließend).
 
 Ergänzen Sie ein (fiktives, z.B. generiertes) Gruppenbild. Experimentieren Sie mit einer [Image Map](https://www.w3schools.com/html/html_images_imagemap.asp), so dass beim Klicken auf den Kopf einer Person im Bild eine neue Webseite mit dem Namen und Informationen zu eben dieser Person angezeigt wird.
 
 ## 🎨 Aufgabe 3️⃣ (HTML, CSS)
 
-Erstellen Sie zu Ihrer Webseite eine CSS-Datei, die die folgenden Einstellungen definiert:
+Erstellen Sie zu Ihrer Webseite CSS Code, der die folgenden Einstellungen definiert:
 
 - Die Hintergrundfarbe der Seite
 - Eine einheitliche Schriftart
@@ -68,7 +68,7 @@ Erstellen Sie eine HTML-Datei, die die folgende Webseite darstellt und die durch
 - Aller Text soll als `sans-serif` Schriftart dargestellt werden.
 - Der Titel "Sportschuh" soll zentriert und fett dargestellt werden.
 - Das Bild soll 
-  - eine feste dynamische Breite von `300%` haben und 
+  - eine dynamische Breite von `30%` haben und 
   - eine automatisch angepasste Höhe haben
 - Die Produktbeschreibung wird 
   - rechts neben den Bild angezeigt 
@@ -76,7 +76,7 @@ Erstellen Sie eine HTML-Datei, die die folgende Webseite darstellt und die durch
 - Das Bestellformular soll
   - unterhalb der Produktbeschreibung angezeigt werden
   - die Voreinstellung so gewählt werden, dass der Artikel 1x in der Größe 38 bestellt wird
-  - alle Bestelldaten an eine Email-Adresse schicken, zusammen mit der Artikelnummer und der Farbe
+  - alle Bestelldaten an eine Email-Adresse schicken
 -  es können maximal `10` Artikel und mindestens `1` Artikel bestellt werden
 
 > [!TIP]
