@@ -99,12 +99,6 @@ public class UserService {
 - `getData` → `getUserDetails` (welche Daten?)
 - `handleInfo` → `updateUserProfile` (wie wird Information behandelt?)
 
-public class UserService {
-    public void createUser() { }
-    public String getUserDetails() { }
-    public void updateUserProfile() { }
-}
-```
 
 ## 🔄 Aufgabe 2️⃣ (Guard-Clauses) - Lösung
 
@@ -245,8 +239,6 @@ public class BankAccount {
 ```java
 public class CustomerDiscountCalculator {
     
-    private static final double BASE_AMOUNT = 3000.0;
-    
     // Customer types
     private static final int BRONZE_CUSTOMER = 1;
     private static final int SILVER_CUSTOMER = 2;
@@ -263,10 +255,6 @@ public class CustomerDiscountCalculator {
     private static final int SILVER_YEARS_THRESHOLD = 5;
     private static final double GOLD_AMOUNT_THRESHOLD = 1000.0;
     private static final double GOLD_BONUS = 100.0;
-    
-    public CustomerDiscountCalculator() {
-        // Constructor initialization if needed
-    }
     
     public double calculateDiscount(int customerType, double orderAmount, int yearsAsCustomer) {
         if (customerType == BRONZE_CUSTOMER) {
@@ -316,12 +304,11 @@ public class CustomerDiscountCalculator {
 
 **Verbesserungen:**
 
-### 🎯 Ziele erreicht:
 1. **Naming:** 
    - `CalcMgr` → `CustomerDiscountCalculator`
-   - `bsal` → `BASE_AMOUNT`
    - `calc` → `calculateDiscount`
    - `chk` → `isValidCustomerType`
+   - `bsal` → Entfernt (da nicht benötigt, genauso wie der Konstruktor)
 
 2. **Verschachtelung:** 
    - Guard clauses implementiert
@@ -339,30 +326,3 @@ public class CustomerDiscountCalculator {
    - Alle Magic Numbers durch aussagekräftige Konstanten ersetzt
    - Logische Gruppierung der Konstanten
 
-## 📊 Bewertungskriterien
-
-### ✅ Excellent (90-100%)
-- Alle Namen sind aussagekräftig und konsistent
-- Keine Verschachtelung über 2-3 Ebenen
-- Perfekte Formatierung
-- Nur sinnvolle Kommentare
-- Alle Magic Numbers durch Konstanten ersetzt
-- Methoden haben einzelne Verantwortlichkeit
-
-### ✅ Good (70-89%)
-- Meiste Namen verbessert
-- Verschachtelung reduziert
-- Gute Formatierung
-- Überflüssige Kommentare entfernt
-- Wichtigste Magic Numbers ersetzt
-
-### ✅ Satisfactory (50-69%)
-- Grundlegende Namensverbesserungen
-- Einige Guard Clauses implementiert
-- Formatierung teilweise verbessert
-- Einige Kommentare überarbeitet
-
-### ❌ Needs Improvement (<50%)
-- Wenige oder keine Verbesserungen
-- Originalprobleme noch vorhanden
-- Unvollständige Bearbeitung
